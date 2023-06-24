@@ -22,8 +22,6 @@ export const Container = styled.header `
 export const Profile = styled(Link)`
   display: flex;
   align-items: center;
-  
-  text-decoration: none;
 
   > Img {
     width: 56px;
@@ -42,10 +40,9 @@ export const Profile = styled(Link)`
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
 
-    > strong {
+     strong {
       font-size: 18px;
-      text-decoration: none;
-      color: ${({ theme }) => theme.WHITE};
+      color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
   }
