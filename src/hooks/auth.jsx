@@ -35,6 +35,7 @@ function AuthProvider( { children } ) {
   localStorage.removeItem("@rocketnotes:user");
    
   setData({});
+  
   }
 
   async function updateProfile({ user, avatarFile }) {

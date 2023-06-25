@@ -21,10 +21,10 @@ export function New() {
 
 
   const [links, setLinks] = useState([]);
-  const [newLink, setNewLink] = useState('');
+  const [newLink, setNewLink] = useState("");
 
   const [tags, setTags] = useState([]);
-  const [newTag, setNewTag] = useState('');
+  const [newTag, setNewTag] = useState("");
 
   const navigate = useNavigate();
 
@@ -34,7 +34,7 @@ export function New() {
 
   function handleAddLink(){
     setLinks(prevState => [...prevState, newLink]);
-    setNewLink('');
+    setNewLink("");
   }
 
   function handleRemoveLink(deleted){  
@@ -43,7 +43,7 @@ export function New() {
 
   function handleAddTag(){
     setTags(prevState => [...prevState, newTag]);
-    setNewTag('');
+    setNewTag("");
   }
 
   function handleRemoveTag(deleted){

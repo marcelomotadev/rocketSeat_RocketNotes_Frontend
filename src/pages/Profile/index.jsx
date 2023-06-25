@@ -6,7 +6,6 @@ import { useAuth } from '../../hooks/auth';
 
 import { Input } from '../../components/input';  
 import { Button } from '../../components/button';
-import { ButtonText } from '../../components/buttonText';
 
 import { api } from '../../services/api';
 import avatarPlaceHolder from '../../assets/avatar_placeholder.svg';
